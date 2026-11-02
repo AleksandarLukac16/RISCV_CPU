@@ -1,0 +1,96 @@
+{
+  // ============================================================
+  //  Verilog editing setup (extension: mshr-h.veriloghdl)
+  //  Vivado owns simulation + synthesis. VS Code only edits/lints.
+  // ============================================================
+
+  "verilog.linting.linter": "iverilog",
+
+  // runAtFileLocation = false  ->  the extension runs iverilog with
+  // cwd = the workspace folder (/home/aco/RISC-V). Verified in the extension's
+  // own log: "Executing {command=iverilog args=[...] cwd=/home/aco/RISC-V}".
+  // So the -y paths below are relative to THAT, not to the edited file.
+  // This is exactly why the old "-y RV.srcs/sim_1/new" failed: the sources are
+  // one level deeper, at "RV/RV.srcs/sim_1/new".
+  "verilog.linting.iverilog.runAtFileLocation": false,
+
+  // -y DIR  : module library search path. When iverilog hits an instantiation
+  //           of `foo`, it looks for DIR/foo.v. THIS is the setting that makes
+  //           instantiating a module from another file lint cleanly.
+  // -g2012  : SystemVerilog-2012 subset. Needed explicitly because the
+  //           extension always injects its own -g flag first, from
+  //           verilog.linting.iverilog.verilogHDL.standard below -- whose enum
+  //           stops at Verilog-2005. A later -g wins, so this overrides it.
+  // -Wall   : catch implicit wires / typo'd port names.
+  //
+  // ADDING A NEW SOURCE FOLDER: append another "-y <path-from-workspace-root>"
+  // here. tasks.json reads this same string, so one edit covers both the live
+  // linter and the build/simulate tasks. Non-existent dirs are ignored by
+  // iverilog, so the sources_1 entries are safe to keep even before Vivado
+  // creates them.
+  //
+  // NOTE: -y requires filename == module name (one_bit_adder -> one_bit_adder.v).
+  // Vivado's "Add Sources" does this by default; keep it that way.
+  "verilog.linting.iverilog.arguments": "-g2012 -Wall -y RV/RV.srcs/sources_1/new -y RV/RV.srcs/sources_1/imports -y RV/RV.srcs/sim_1/new -y RV/RV.srcs/sim_1/imports",
+
+  // `include search path. Kept here rather than as -I in the arguments string
+  // because the extension resolves these entries to absolute paths against the
+  // workspace folder, so they survive any cwd change.
+  "verilog.linting.iverilog.includePath": [
+    "RV/RV.srcs/sources_1/new",
+    "RV/RV.srcs/sim_1/new"
+  ],
+
+  // Same include/library setup for the Vivado parser, used by the
+  // "Vivado: syntax check current file (xvlog)" task.
+  "verilog.linting.xvlog.arguments": "-i RV/RV.srcs/sources_1/new -i RV/RV.srcs/sim_1/new",
+
+  // Go-to-definition and hover are currently DEAD: the extension log shows
+  // "Tool failed to start ctags: ENOENT" -- ctags is not installed. Fix with:
+  //   sudo apt install universal-ctags
+  // Then reload the window. Path left as the default name on PATH.
+  "verilog.ctags.enabled": true,
+  "verilog.ctags.path": "ctags",
+
+  "files.associations": {
+    "*.v": "verilog",
+    "*.vh": "verilog",
+    "*.sv": "systemverilog",
+    "*.svh": "systemverilog",
+    "*.xdc": "tcl",
+    "*.tcl": "tcl"
+  },
+
+  "[verilog]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[systemverilog]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
+  // Keep Vivado's generated trees out of search, Ctrl+P and the file watcher.
+  // These are huge and regenerate on every run.
+  "files.exclude": {
+    "**/.Xil": true,
+    "**/*.jou": true,
+    "**/*.log": true
+  },
+  "search.exclude": {
+    "RV/RV.cache": true,
+    "RV/RV.hw": true,
+    "RV/RV.ip_user_files": true,
+    "RV/RV.sim": true,
+    "RV/RV.runs": true,
+    "build": true
+  },
+  "files.watcherExclude": {
+    "**/RV.cache/**": true,
+    "**/RV.hw/**": true,
+    "**/RV.ip_user_files/**": true,
+    "**/RV.sim/**": true,
+    "**/RV.runs/**": true,
+    "**/build/**": true
+  }
+}

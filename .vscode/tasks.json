@@ -1,0 +1,134 @@
+{
+  "version": "2.0.0",
+
+  // Every task runs from the workspace folder (/home/aco/RISC-V).
+  //
+  // The -y library paths are NOT repeated here -- they come from settings.json
+  // via ${config:verilog.linting.iverilog.arguments}, so adding a new source
+  // folder is a one-line edit in ONE place, and both the live linter and these
+  // tasks pick it up. (The -I include paths are passed explicitly below: the
+  // linter gets those from verilog.linting.iverilog.includePath, which the
+  // extension absolutizes for itself and is not readable as one flat string.)
+  //
+  // Dependencies resolve through iverilog's -y library search, so each task
+  // compiles only the file you have open. No `find` over the tree, and no
+  // "duplicate module" errors when a module exists in both sources_1 and sim_1.
+  "options": {
+    "cwd": "${workspaceFolder}"
+  },
+
+  "tasks": [
+    {
+      "label": "Verilog: lint current file",
+      "detail": "iverilog syntax + elaboration check, no output file",
+      "type": "shell",
+      "command": "iverilog -t null ${config:verilog.linting.iverilog.arguments} -I RV/RV.srcs/sources_1/new -I RV/RV.srcs/sim_1/new ${relativeFile}",
+      // Matches all three iverilog shapes:
+      //   four_bit_adder.v:3: syntax error
+      //   four_bit_adder.v:33: error: Unknown module type: one_bit_adder
+      //   four_bit_adder.v:38: warning: implicit definition of wire 'cout0'.
+      "problemMatcher": {
+        "owner": "verilog",
+        "source": "iverilog",
+        "fileLocation": ["relative", "${workspaceFolder}"],
+        "severity": "error",
+        "pattern": {
+          "regexp": "^(.+?):(\\d+):\\s*(?:(error|warning|sorry):\\s*)?(.+)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      },
+      "presentation": { "reveal": "silent", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Verilog: build current file",
+      "detail": "Compile open file + its dependencies to build/sim",
+      "type": "shell",
+      "command": "mkdir -p build && iverilog ${config:verilog.linting.iverilog.arguments} -I RV/RV.srcs/sources_1/new -I RV/RV.srcs/sim_1/new -o build/sim -s ${fileBasenameNoExtension} ${relativeFile}",
+      "problemMatcher": {
+        "owner": "verilog",
+        "source": "iverilog",
+        "fileLocation": ["relative", "${workspaceFolder}"],
+        "severity": "error",
+        "pattern": {
+          "regexp": "^(.+?):(\\d+):\\s*(?:(error|warning|sorry):\\s*)?(.+)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      },
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Verilog: simulate current file",
+      "detail": "Build, then run under vvp (cwd = build/)",
+      "type": "shell",
+      "command": "vvp sim",
+      "options": { "cwd": "${workspaceFolder}/build" },
+      "dependsOn": ["Verilog: build current file"],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "group": { "kind": "test", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Verilog: simulate + open waves (GTKWave)",
+      "detail": "Needs $dumpfile(\"wave.vcd\"); $dumpvars(0, <tb>); in the testbench",
+      "type": "shell",
+      "command": "gtkwave wave.vcd",
+      "options": { "cwd": "${workspaceFolder}/build" },
+      "dependsOn": ["Verilog: simulate current file"],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Vivado: syntax check current file (xvlog)",
+      "detail": "Second opinion from Vivado's own parser",
+      // Runs in build/xsim because xvlog always drops an xvlog.pb next to cwd;
+      // that is also why these -i paths are absolute instead of reusing the
+      // relative ones from settings.json.
+      "type": "shell",
+      "command": "mkdir -p build/xsim && /home/aco/tools/Xilinx/2025.2/Vivado/bin/xvlog --nolog -i ${workspaceFolder}/RV/RV.srcs/sources_1/new -i ${workspaceFolder}/RV/RV.srcs/sim_1/new ${file}",
+      "options": { "cwd": "${workspaceFolder}/build/xsim" },
+      // ERROR: [VRFC 10-4982] syntax error near 'endmodule' [/path/bad.v:3]
+      "problemMatcher": {
+        "owner": "verilog",
+        "source": "xvlog",
+        "fileLocation": "absolute",
+        "severity": "error",
+        "pattern": {
+          "regexp": "^(ERROR|WARNING):\\s*\\[[^\\]]+\\]\\s*(.+?)\\s*\\[(.+):(\\d+)\\]$",
+          "severity": 1,
+          "message": 2,
+          "file": 3,
+          "line": 4
+        }
+      },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Vivado: open RV project",
+      // LIBRARY_PATH is REQUIRED on this machine. xsim links the simulation
+      // snapshot with the system gcc, which does not search Ubuntu's multiarch
+      // dir where crt1.o/crti.o actually live. Without it, elaboration dies
+      // with "/usr/bin/ld: cannot find crt1.o" + "ERROR: [XSIM 43-3238]
+      // Failed to link the design". Vivado's child processes (xvlog, xelab,
+      // xsim) inherit it, so setting it here fixes GUI simulation too.
+      // xelab prints a harmless "XSIM 43-3431 ... environment variables"
+      // warning about it -- that is expected, not a problem.
+      "type": "shell",
+      "command": "/home/aco/tools/Xilinx/2025.2/Vivado/bin/vivado RV/RV.xpr",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": { "LIBRARY_PATH": "/usr/lib/x86_64-linux-gnu" }
+      },
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "dedicated" }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+12:36:23
+/home/aco/RISC-V/RV/RV.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+/home/aco/RISC-V/RV/RV.srcs/sim_1/new/four_bit_adder.v,1793641778,verilog,,/home/aco/RISC-V/RV/RV.srcs/sim_1/new/one_bit_adder.v,,four_bit_adder,,,../../../../../../tools/Xilinx/2025.2/data/rsb/busdef,,,,,
+/home/aco/RISC-V/RV/RV.srcs/sim_1/new/one_bit_adder.v,1793638993,verilog,,/home/aco/RISC-V/RV/RV.srcs/sim_1/new/top.v,,one_bit_adder,,,../../../../../../tools/Xilinx/2025.2/data/rsb/busdef,,,,,
+/home/aco/RISC-V/RV/RV.srcs/sim_1/new/top.v,1793645894,verilog,,,,top,,,../../../../../../tools/Xilinx/2025.2/data/rsb/busdef,,,,,

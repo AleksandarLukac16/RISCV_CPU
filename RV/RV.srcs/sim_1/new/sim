@@ -1,0 +1,59 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x642b29b574b0 .scope module, "four_bit_adder" "four_bit_adder" 2 23;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /INPUT 4 "b";
+    .port_info 2 /INPUT 1 "cin";
+    .port_info 3 /OUTPUT 4 "sum";
+    .port_info 4 /OUTPUT 1 "cout";
+o0x7fedcd2e62e8 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v0x642b29b69c90_0 .net "a", 3 0, o0x7fedcd2e62e8;  0 drivers
+o0x7fedcd2e6318 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v0x642b29b69d90_0 .net "b", 3 0, o0x7fedcd2e6318;  0 drivers
+o0x7fedcd2e6168 .functor BUFZ 1, C4<z>; HiZ drive
+v0x642b29b69e70_0 .net "cin", 0 0, o0x7fedcd2e6168;  0 drivers
+o0x7fedcd2e6348 .functor BUFZ 1, C4<z>; HiZ drive
+v0x642b29b69f10_0 .net "cout", 0 0, o0x7fedcd2e6348;  0 drivers
+v0x642b29b69fb0_0 .net "cout0", 0 0, L_0x642b29b6a730;  1 drivers
+v0x642b29b6a050_0 .net "sum", 3 0, L_0x642b29b6aaa0;  1 drivers
+L_0x642b29b6a840 .part o0x7fedcd2e62e8, 0, 1;
+L_0x642b29b6a970 .part o0x7fedcd2e6318, 0, 1;
+L_0x642b29b6aaa0 .part/pv L_0x642b29b6a280, 0, 1, 4;
+S_0x642b29b57640 .scope module, "adder0" "one_bit_adder" 2 33, 3 23 0, S_0x642b29b574b0;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /INPUT 1 "cin";
+    .port_info 3 /OUTPUT 1 "sum";
+    .port_info 4 /OUTPUT 1 "cout";
+L_0x642b29b6a190 .functor XOR 1, L_0x642b29b6a840, L_0x642b29b6a970, C4<0>, C4<0>;
+L_0x642b29b6a280 .functor XOR 1, L_0x642b29b6a190, o0x7fedcd2e6168, C4<0>, C4<0>;
+L_0x642b29b6a3c0 .functor AND 1, L_0x642b29b6a840, L_0x642b29b6a970, C4<1>, C4<1>;
+L_0x642b29b6a4d0 .functor AND 1, L_0x642b29b6a970, o0x7fedcd2e6168, C4<1>, C4<1>;
+L_0x642b29b6a570 .functor OR 1, L_0x642b29b6a3c0, L_0x642b29b6a4d0, C4<0>, C4<0>;
+L_0x642b29b6a680 .functor AND 1, L_0x642b29b6a840, o0x7fedcd2e6168, C4<1>, C4<1>;
+L_0x642b29b6a730 .functor OR 1, L_0x642b29b6a570, L_0x642b29b6a680, C4<0>, C4<0>;
+v0x642b29b57820_0 .net *"_ivl_0", 0 0, L_0x642b29b6a190;  1 drivers
+v0x642b29b69480_0 .net *"_ivl_10", 0 0, L_0x642b29b6a680;  1 drivers
+v0x642b29b69560_0 .net *"_ivl_4", 0 0, L_0x642b29b6a3c0;  1 drivers
+v0x642b29b69620_0 .net *"_ivl_6", 0 0, L_0x642b29b6a4d0;  1 drivers
+v0x642b29b69700_0 .net *"_ivl_8", 0 0, L_0x642b29b6a570;  1 drivers
+v0x642b29b69830_0 .net "a", 0 0, L_0x642b29b6a840;  1 drivers
+v0x642b29b698f0_0 .net "b", 0 0, L_0x642b29b6a970;  1 drivers
+v0x642b29b699b0_0 .net "cin", 0 0, o0x7fedcd2e6168;  alias, 0 drivers
+v0x642b29b69a70_0 .net "cout", 0 0, L_0x642b29b6a730;  alias, 1 drivers
+v0x642b29b69b30_0 .net "sum", 0 0, L_0x642b29b6a280;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "four_bit_adder.v";
+    "one_bit_adder.v";
