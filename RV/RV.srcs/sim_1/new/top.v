@@ -29,6 +29,12 @@ wire cout;
 wire [3:0] y_mux1;
 wire [1:0] selMUX1;
 wire [1:0] selMUX2;
+reg [3:0] results [3:0];
+
+reg reset = 1'b0;
+reg clk = 1'b0;
+
+wire [3:0] y_dmx1 [3:0];
 
 
 initial begin
@@ -71,8 +77,27 @@ four_bit_adder adder(
 OneToFourDMX dmx1(
     .a(result),
     .sel(selMUX1),
-    .y(y_mux1)
+    .y(y_dmx1)
 );
+
+genvar i;
+
+generate
+    for(i=0; i<4;i = i+1)begin : reg_loop
+        
+        FourBitRegister register(
+            .data(y_dmx1[i]),
+            .load(1'b1),
+            .inc(1'b0),
+            .clk(clk),
+            .reset(reset),
+            .q(results[i])
+        );
+
+
+
+    end
+endgenerate
 
 
 

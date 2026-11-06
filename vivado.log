@@ -242,3 +242,17 @@ update_compile_order -fileset sim_1
 update_compile_order -fileset sim_1
 update_compile_order -fileset sim_1
 update_compile_order -fileset sim_1
+set_property SOURCE_SET {} [get_filesets sim_1]
+close [ open /home/aco/RISC-V/RV/RV.srcs/sim_1/new/FourBitRegister.v w ]
+add_files -fileset sim_1 /home/aco/RISC-V/RV/RV.srcs/sim_1/new/FourBitRegister.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

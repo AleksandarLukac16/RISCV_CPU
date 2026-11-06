@@ -945,3 +945,969 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation S
 // TclEventType: DG_GRAPH_GENERATED
 // Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 31m:52s
 // HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 6:59:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:00:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:00:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:01:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:02:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:02:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:03:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:04:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:04:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:05:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:06:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:06:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:07:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:08:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:08:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:09:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:10:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:10:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:11:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:12:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:12:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:13:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:14:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:14:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:15:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:16:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:16:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:17:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:18:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:18:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:19:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:20:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:20:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:21:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:22:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:22:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:23:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:24:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:24:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:25:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:26:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:26:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:27:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:28:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:28:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:29:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:30:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:30:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:31:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:32:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:32:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:33:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:34:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:34:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:35:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:36:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:36:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:37:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:38:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:38:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:39:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:40:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:40:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:41:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:42:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:42:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:43:33 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:44:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:44:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:45:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:46:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:46:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:47:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:48:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:48:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:49:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:50:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:50:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:51:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:52:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:52:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:53:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:54:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:54:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:55:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:56:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:56:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:57:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:58:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:58:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 7:59:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:00:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:00:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:01:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:02:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:02:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:03:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:04:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 104 MB. Current time: 11/6/26, 8:04:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:05:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:06:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:06:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:07:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 102 MB. Current time: 11/6/26, 8:08:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:08:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:09:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:10:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:10:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:11:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:12:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:12:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:13:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:14:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:14:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:15:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,283 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:16:14 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:41s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:43s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:45s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:53s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,313 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:16:30 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,313 MB (+2931kb) [01:48:59]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:55s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:57s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:48m:59s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:03s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:05s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:07s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:09s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:11s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,353 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:16:50 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,353 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:16:54 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:27s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:49m:29s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,353 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:17:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:18:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:18:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:19:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:20:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 86 MB. Current time: 11/6/26, 8:20:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:21:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:22:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:22:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:23:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:24:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:24:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:25:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:26:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:26:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:27:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:28:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:28:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:29:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:30:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:30:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:31:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:32:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:32:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:33:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:34:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:34:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:35:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:36:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:36:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:37:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:38:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:38:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:39:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:40:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:40:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:41:34 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:42:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:42:54 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:43:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:16m:08s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:16m:10s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:44:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:44:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,363 MB. GUI used memory: 84 MB. Current time: 11/6/26, 8:45:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:04s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:06s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:08s
+// Elapsed time: 7489 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 3, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // am (PAResourceCommand.PACommandNames_SIMULATION_RUN, Run Simulation)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // am (PAResourceCommand.PACommandNames_SIMULATION_RESET, Reset Simulation)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ap (PAResourceCommand.PACommandNames_ADD_SOURCES, add_sources_menu)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "FourBitRegister"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // l (dialog11)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,393 MB. GUI used memory: 93 MB. Current time: 11/6/26, 8:46:15 PM CET
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 13 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // d (dialog10)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET {} [get_filesets sim_1] 
+// Tcl Message: close [ open /home/aco/RISC-V/RV/RV.srcs/sim_1/new/FourBitRegister.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 /home/aco/RISC-V/RV/RV.srcs/sim_1/new/FourBitRegister.v 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Define Module"); // f (RDIResource.BaseDialog_OK)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes", "Define Module"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // o (dialog12)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:44s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:46s
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, FourBitRegister (FourBitRegister.v)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, FourBitRegister (FourBitRegister.v)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Launch External Editor: 'code -g /home/aco/RISC-V/RV/RV.srcs/sim_1/new/FourBitRegister.v:23'
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:48s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:18m:50s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:02s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:06s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,442 MB. GUI used memory: 86 MB. Current time: 11/6/26, 8:46:45 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:10s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:12s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:14s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:16s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,460 MB. GUI used memory: 87 MB. Current time: 11/6/26, 8:46:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:20s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:22s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:24s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,480 MB (+1454kb) [02:19:33]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:28s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:30s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:32s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,500 MB. GUI used memory: 87 MB. Current time: 11/6/26, 8:47:10 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:34s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:38s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:44s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:46s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:48s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,540 MB. GUI used memory: 87 MB. Current time: 11/6/26, 8:47:25 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:52s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:54s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:56s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,560 MB. GUI used memory: 87 MB. Current time: 11/6/26, 8:47:35 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:19m:58s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:00s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:32s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:34s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:36s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,588 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:48:15 PM CET
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:38s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:42s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:44s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:46s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:48s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:50s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:54s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:56s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:20m:58s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:00s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,656 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:48:40 PM CET
+// [Engine Memory]: 3,656 MB (+1776kb) [02:21:09]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:04s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:06s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:08s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,656 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:48:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:32s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,676 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:49:10 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:34s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:21m:42s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,676 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:49:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:16s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,686 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:50:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:48s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:50s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:54s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:56s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:22m:58s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,726 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:50:35 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:23m:00s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,726 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:50:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:23m:36s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:23m:38s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,726 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:51:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,736 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:52:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,736 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:52:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:25m:24s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:25m:26s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:25m:28s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:25m:30s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,746 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:53:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,756 MB. GUI used memory: 88 MB. Current time: 11/6/26, 8:54:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:26m:46s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:26m:48s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:26m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:26m:52s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,794 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:54:30 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:26m:54s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:27m:16s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,804 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:54:55 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:27m:18s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:27m:38s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:27m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:27m:42s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,832 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:55:20 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:27m:44s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,832 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:55:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,832 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:56:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,832 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:56:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,832 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:57:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,832 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:58:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:06s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:08s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:12s
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,842 MB (+3291kb) [02:31:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,852 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:58:50 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:14s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,852 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:58:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:48s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:52s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,882 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:59:30 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:54s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:56s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,892 MB. GUI used memory: 89 MB. Current time: 11/6/26, 8:59:35 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:31m:58s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:32m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:32m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:32m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:32m:06s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:32m:10s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:32m:12s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,922 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:00:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:33m:06s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:33m:08s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:33m:10s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:33m:12s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,950 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:00:55 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:33m:18s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:33m:20s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,950 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:01:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,950 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:02:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,950 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:02:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,960 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:03:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,960 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:04:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,960 MB. GUI used memory: 89 MB. Current time: 11/6/26, 9:04:55 PM CET
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:18s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:20s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:24s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:26s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:30s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:32s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:38s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,998 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:05:15 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:37m:42s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,998 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:05:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:38m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:38m:06s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:38m:08s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,018 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:06:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:38m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:38m:52s
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 4,038 MB (+4073kb) [02:38:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,048 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:06:30 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:38m:54s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,048 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:06:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:24s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:26s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:30s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:32s
+// Tcl Message: update_compile_order -fileset sim_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,068 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:07:10 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:34s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:36s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:38s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:40s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:42s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:39m:44s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,088 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:07:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:16s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,118 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:07:55 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:20s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:22s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:24s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:26s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:28s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:30s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:32s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:34s
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:36s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,170 MB. GUI used memory: 90 MB. Current time: 11/6/26, 9:08:15 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:38s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:40s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:42s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:44s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:46s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:48s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:52s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:54s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:56s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:40m:58s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,236 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:08:35 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,246 MB (+6298kb) [02:41:08]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:04s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:08s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:10s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:12s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,274 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:08:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:34s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:36s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:38s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:40s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:42s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,304 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:09:20 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:41m:44s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,304 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:09:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:06s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:12s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:14s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:16s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,349 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:09:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:22s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:24s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:36s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,369 MB. GUI used memory: 91 MB. Current time: 11/6/26, 9:10:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:38s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:56s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:42m:58s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:02s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:06s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,405 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:10:45 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:14s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:16s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,415 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:10:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:46s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:48s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:52s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,435 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:11:30 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:54s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:56s
+// Tcl Message: update_compile_order -fileset sim_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,445 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:11:35 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:43m:58s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 4,463 MB (+5789kb) [02:44:06]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:02s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:04s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:06s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:08s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:10s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:16s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:44m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,483 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:12:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,483 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:12:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:45m:26s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:45m:28s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:45m:30s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:45m:32s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:45m:36s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:45m:38s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,521 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:13:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,521 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:13:35 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:46m:30s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:46m:32s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:46m:34s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:46m:36s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,539 MB. GUI used memory: 92 MB. Current time: 11/6/26, 9:14:15 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:46m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:46m:42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,569 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:14:40 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:04s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,569 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:14:55 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:28s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:30s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:32s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,589 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:15:10 PM CET
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:34s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:36s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:38s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:52s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,629 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:15:30 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:54s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:47m:56s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:15:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:16:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:16:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:17:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:18:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:18:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:19:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:20:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:20:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:21:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:22:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:22:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:23:35 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:24:15 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:24:55 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,639 MB. GUI used memory: 93 MB. Current time: 11/6/26, 9:25:35 PM CET
