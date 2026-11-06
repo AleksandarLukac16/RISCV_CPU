@@ -932,3 +932,5 @@ dismissDialog("Run Simulation"); // e (Run Simulation Progress)
 // [Engine Memory]: 3,824 MB (+1702941kb) [00:03:45]
 // HMemoryUtils.trashcanNow. Engine heap size: 3,824 MB. GUI used memory: 101 MB. Current time: 11/2/26, 7:59:01 PM CET
 // HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 101 MB. Current time: 11/2/26, 7:59:19 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 101 MB. Current time: 11/2/26, 7:59:59 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 101 MB. Current time: 11/2/26, 8:00:39 PM CET
