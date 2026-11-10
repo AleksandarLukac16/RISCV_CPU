@@ -1,3 +1,7 @@
 Time resolution is 1 ps
-a=1111, b=0000, cin=1, result=xxxx, cout=x
-INFO: xsimkernel Simulation Memory Usage: 283752 KB (Peak: 341284 KB), Simulation CPU Usage: 690 ms
+Starting simulation...
+results[0] = 0110
+results[1] = 1000
+results[2] = 1010
+results[3] = 1100
+$finish called at time : 130 ns : File "/home/aco/RISC-V/RV/RV.srcs/sim_1/new/top.v" Line 66

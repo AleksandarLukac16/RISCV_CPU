@@ -48,13 +48,14 @@ module FourBitRegister(
 
     always @(*)begin
 
+        q_next = q;
         if(load)
             begin
-                q_next = q + 1;
+                q_next = data;
             end
         else if(inc)
             begin
-            q_next = data;
+            q_next = q + 1;
         end
 
 

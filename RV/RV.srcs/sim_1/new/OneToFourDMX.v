@@ -23,7 +23,10 @@
 module OneToFourDMX(
     input [3:0]a,
     input [1:0] sel,
-    output reg [3:0] y [3:0]
+    output reg [3:0] y1 ,
+    output reg [3:0] y2 ,
+    output reg [3:0] y3 ,
+    output reg [3:0] y4
 
     );
 
@@ -32,13 +35,11 @@ module OneToFourDMX(
 
         case(sel)
         
-            2'b00: y[0]=a;
-            2'b01: y[1]=a;
-            2'b10: y[2]=a;
-            2'b11: y[3]=a;
-
-
-        default: y[0]=4'b0000;
+            2'b00: y1=a;
+            2'b01: y2=a;
+            2'b10: y3=a;
+            2'b11: y4=a;
+                
         endcase
 
 

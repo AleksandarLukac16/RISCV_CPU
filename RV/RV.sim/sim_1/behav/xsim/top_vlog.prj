@@ -1,5 +1,9 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  --include "../../../../../../tools/Xilinx/2025.2/data/rsb/busdef" \
+"../../../../RV.srcs/sim_1/new/AluControlUnit.v" \
+"../../../../RV.srcs/sim_1/new/FourBitRegister.v" \
+"../../../../RV.srcs/sim_1/new/FourToOneMUX.v" \
+"../../../../RV.srcs/sim_1/new/OneToFourDMX.v" \
 "../../../../RV.srcs/sim_1/new/four_bit_adder.v" \
 "../../../../RV.srcs/sim_1/new/one_bit_adder.v" \
 "../../../../RV.srcs/sim_1/new/top.v" \
